@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#banner {
+    background-image: url(../img/chadebebe.jpg);
+    height: calc(100vh - 56px);
+    background-size: cover;
+    background-attachment: fixed;
+    color:midnightblue;
+    font-weight: bold;
+}
+
+main{
+    background-color: #F8F9FA;
+}
+
+header li a{
+    border-radius: 9px;
+    transition: all .3s ease-in-out;
+}
+
+header li a:hover{
+    background-color: #F77D8C;
+    color: black;
+  }
+
+h1, h4, h5{
+    font-family: 'Comfortaa', cursive;
+    padding-top: 15px;
+}
+
+.sobre img {
+    height: 21.875rem;
+    width: 100%;
+    object-fit: cover;
+    transition: all .3s ease-in-out;
+}
+
+.image-container {
+    height: 21.875rem;
+    width: 100%;
+    border: 10px groove --corCinza;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.sobre img:hover {
+    transform: scale(1.1);
+}
+
+p {
+    display: block;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
